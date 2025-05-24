@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MobileService = require("@/components/MobileService");
 const { ModuleFederationPlugin } = require('webpack').container;
 
 module.exports = {
