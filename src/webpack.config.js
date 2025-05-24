@@ -47,7 +47,7 @@ module.exports = {
             filename: 'index.html',
         }),
         new ModuleFederationPlugin({
-            name: 'dashboard',
+            name: 'ownership',
             filename: 'remoteEntry.js',
             exposes: {
                 './Card': './src/utils/Card.jsx',
